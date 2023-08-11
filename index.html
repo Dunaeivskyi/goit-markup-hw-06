@@ -64,14 +64,14 @@
     <main>
       <!--Перша секція-->
 
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <!--Друга сукція-->
       <section class="benefits section">
@@ -132,13 +132,17 @@
 
       <!--Третя секція-->
 
-      <!--   <section class="desc-section section">
+      <section class="desc-section section">
         <div class="container">
           <h2 class="desc-title">What are we doing</h2>
           <ul class="desc-menu list">
             <li class="desc-item">
               <img
                 class="desc-img"
+                srcset="
+                  ./images/comp-screen.jpg   1x,
+                  ./images/desctopmob@2x.jpg 2x
+                "
                 src="./images/comp-screen.jpg"
                 alt="comp-screen"
                 width="360"
@@ -147,6 +151,10 @@
             </li>
             <li class="desc-item">
               <img
+                srcset="
+                  ./images/iphone-screens.jpg 1x,
+                  ./images/screenmob@2x.jpg   2x
+                "
                 class="desc-img"
                 src="./images/iphone-screens.jpg"
                 alt="iphone-screens"
@@ -156,6 +164,10 @@
             </li>
             <li class="desc-item">
               <img
+                srcset="
+                  ./images/hand-hold-phone.jpg 1x,
+                  ./images/iphonemob@2x.jpg    2x
+                "
                 class="desc-img"
                 src="./images/hand-hold-phone.jpg"
                 alt="hand-hold-phone"
@@ -165,17 +177,18 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Четверта секція-->
 
-      <!-- <section class="team-section section">
-        <div class="container">
+      <section class="team-section section">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/mark-g.jpg 1x, ./images/mark@2x.jpg 2x"
                 src="./images/mark-g.jpg"
                 alt="Mark"
                 width="264"
@@ -217,6 +230,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/tom-f.jpg 1x, ./images/tom@2x.jpg 2x"
                 src="./images/tom-f.jpg"
                 alt="Tom"
                 width="264"
@@ -258,6 +272,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/camila-g.jpg 1x, ./images/camila@2x.jpg 2x"
                 src="./images/camila-g.jpg"
                 alt="Camila"
                 width="264"
@@ -299,6 +314,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/daniel-w.jpg 1x, ./images/daniel@2x.jpg 2x"
                 src="./images/daniel-w.jpg"
                 alt="Daniel"
                 width="264"
@@ -340,8 +356,9 @@
           </ul>
         </div>
       </section>
-      <section class="customers">
-        <div class="container">
+
+      <section class="customers section">
+        <div class="container customers-container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
@@ -382,12 +399,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- FOOTER-SECTION -->
 
-    <!-- <footer class="footer-page">
+    <footer class="footer-page">
       <div class="container footer-container">
         <div class="footer-first-block">
           <a class="footer-logo logo link" href="./index.html">
@@ -445,7 +462,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
